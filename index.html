@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECNO@CCESSORIES</title>
+    <!-- file css -->
+     <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Link Swiper's CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+
+    <header>
+        <div class="container top-nav"> 
+            <a href="#" class="logo"><img src="img/logo-black.png" alt=""></a>
+            <form action="" class="search">
+                <input type="search" placeholder="search for products...">
+                <button type="submit">search</button>
+            </form>
+            <div class="cart_header">
+                <div onclick="open_cart()" class="icon_cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="count_item">0</span>
+
+                </div>
+                <div class="tottal_price">
+                    <p> My cart :</p>
+                    <p class="price_cart_head">$0</p>
+                </div> 
+            </div>    
+        </div>
+        <nav>  
+           <div class="links container">
+            <ul>
+                <li class="active"><a href="">home</a></li>
+                <li><a href="">all products</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+            <div class="loging_signup">
+                <a href="#">login <i class="fa-solid fa-right-to-bracket"></i></a>
+                <a href="#">sign up <i class="fa-solid fa-user-plus"></i></a>
+            </div>
+
+
+           </div>
+
+        </nav>
+    
+    </header>
+    
+    <div class="cart">
+        <div class="top_cart">
+            <h3>My cart <span>(0item in cart)</span></h3>
+            <span onclick="close_cart()" class="close_cart"><i class="fa-regular fa-circle-xmark"></i></span>
+        </div>
+
+        <div class="items_in_cart">
+            <div class="item_cart">
+                <img src="img/product/product-1.jpg" alt="">
+                <div class="content">
+                    <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                    <p class="price_cart">$120</p>
+                </div>
+                <button class="delete_item"><i class="fa-regular fa-trash-can"></i></button>
+            </div>
+
+            <div class="item_cart">
+                <img src="img/product/product-2.jpg" alt="">
+                <div class="content">
+                    <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>
+                    <p class="price_cart">$150</p>
+                </div>
+                <button class="delete_item"><i class="fa-regular fa-trash-can"></i></button>
+            </div>
+        </div>
+            
+
+            
+                
+
+        
+    
+        <div class="bottom_cart">
+            <div class="total">
+                <p>cart subtotal</p>
+                <p class="price_cart_total">$0</p>
+            </div>
+            <div class="button_cart">
+                <a href="#"class="btn_cart">proced to checkout</a>
+                <button class="btn_cart trans_bg">shop more</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <section class="slider">
+        <div class="container">
+            <div class="side_bar">
+                <h2><i class="fa-solid fa-bars"></i> shop by derparment</h2>
+                <a href="#">All categories</a>
+                <a href="#">Best seller products</a>
+                <a href="#">New arrivals</a>
+            
+            </div>
+<!-- Swiper -->
+  <div class="slide-swp mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a href="#"><img src="img/slider-01.jpg" alt=""></a>
+      </div> 
+
+      <div class="swiper-slide">
+        <a href="#"><img src="img/slider-02.jpg" alt=""></a>
+      </div>
+
+      <div class="swiper-slide">
+        <a href="#"><img src="img/slider-03.jpg" alt=""></a>
+      </div>
+      
+    </div>
+      
+    <div class="swiper-pagination"></div>
+</div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="container">
+             <div class="feature_item">
+                <img src="img/features1.png" alt="">
+                <div class="text">
+                    <h4>Free shipping</h4>
+                    <p>Free shipping on all order </p>
+                </div>
+            </div>
+            <div class="feature_item">
+                <img src="img/features2.png" alt="">
+                <div class="text">
+                    <h4>Free shipping</h4>
+                    <p>Free shipping on all order </p>
+                </div>
+            </div>
+            <div class="feature_item">
+                <img src="img/features3.png" alt="">
+                <div class="text">
+                    <h4>Free shipping</h4>
+                    <p>Free shipping on all order </p>
+                </div>
+            </div>
+            <div class="feature_item">
+                <img src="img/features4.png" alt="">
+                <div class="text">
+                    <h4>Free shipping</h4>
+                    <p>Free shipping on all order </p>
+                </div>
+            </div>
+            <div class="feature_item">
+                <img src="img/features5.png" alt="">
+                <div class="text">
+                    <h4>Free shipping</h4>
+                    <p>Free shipping on all order </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="container">
+
+            <div class="banner_img">
+                <div class="glass_hover"></div>
+                    <a href="#"></a>
+                        <img src="img/banner/banner-1.jpg" alt="">
+                    
+            </div>
+            <div class="banner_img">
+                <div class="glass_hover"></div>
+                    <a href="#"></a>
+                        <img src="img/banner/banner-2.jpg" alt="">
+                    
+            </div>
+            <div class="banner_img">
+                <div class="glass_hover"></div>
+                    <a href="#"></a>
+                        <img src="img/banner/banner-3.jpg" alt="">
+                    
+            </div>
+
+        </div>
+
+    </section>
+    <section class="slide slide_sale">
+        <div class="container">
+
+            <div class="sale_sec mySwiper">
+                <div class="top_slide">
+                    <h2> on sale <span>product</span></h2>
+                </div>
+                <div class="products swiper-wrapper">
+                    <div class="product swiper-slide">
+                        <div class="icons">
+                            <span><i class="fa-solid fa-cart-arrow-down"></i></span>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-share-from-square"></i></span>
+                        </div>
+                        <span class="sale_present">10%</span>
+
+                        <div class="img_product">
+                            <img src="img/product/product-1.jpg" alt="">
+                            <img class="img_hover" src="img/product/product1.jpg" alt="">
+                        </div>
+                        <h3 class="name_product"><a href="#">Original Mobile Android Dual SIM Smart Phone G3</a></h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <div class="price">
+                            <p><span>$180</span></p>
+                            <p class="old_price">$200</p>
+                        </div>
+                    </div>
+                    <div class="product swiper-slide">
+                        <div class="icons">
+                            <span><i class="fa-solid fa-cart-arrow-down"></i></span>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-share-from-square"></i></span>
+                        </div>
+                        <span class="sale_present">10%</span>
+
+                        <div class="img_product">
+                            <img src="img/product/product-2.jpg" alt="">
+                            <img class="img_hover" src="img/product/product2.jpg" alt="">
+                        </div>
+                        <h3 class="name_product"></h3><a href="">"Original Mobile Android Dual SIM Smart Phone G3"</a></h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <div class="price">
+                            <p><span>$180</span></p>
+                            <p class="old_price">$200</p>
+                        </div>
+                    </div>
+                    <div class="product swiper-slide">
+                        <div class="icons">
+                            <span><i class="fa-solid fa-cart-arrow-down"></i></span>
+                            <span><i class="fa-solid fa-heart"></i></span>
+                            <span><i class="fa-solid fa-share-from-square"></i></span>
+                        </div>
+                        <span class="sale_present">10%</span>
+
+                        <div class="img_product">
+                            <img src="img/product/product-3.jpg" alt="">
+                            <img class="img_hover" src="img/product/product3.jpg" alt="">
+                        </div>
+                        <h3 class="name_product"><a href="#">"smart tv 32px new generation"</a></h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <div class="price">
+                            <p><span>$180</span></p>
+                            <p class="old_price">$200</p>
+                        </div>
+                    </div>
+
+                        
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="accueil" class="hero">
+        <div class="container">
+            <h2>Welcome to our online store</h2>
+            <p>Discover a wide range of computer accessories.</p>
+            <a href="#produits" class="btn">Voir les produits</a>
+        </div>
+    </section>
+
+    <section id="produits" class="produits">
+        <div class="container">
+            <h2>all Products</h2>
+            <div class="card">
+                <img src="img/product/product-9.jpg" alt="Produit 1">
+                <h3>Clavier Mécanique</h3>
+                <p>Price : 49,99 €</p>
+                
+            </div>
+            <div class="card">
+                <img src="img/product/product-8.jpg" alt="Produit 2">
+                <h3>Souris Gaming</h3>
+                <p>Price : 29,99 €</p>
+            
+            </div>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contacte-us</h2>
+            <form>
+                <label for="nom">Name :</label>
+                <input type="text" id="nom" name="nom" required><br><br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>2024 Sale of Computer Accessories. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="js/swiper.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
